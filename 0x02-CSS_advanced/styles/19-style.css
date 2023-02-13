@@ -195,3 +195,7 @@ ul.row {
 footer.btn-outline-light {
     text-align: right;
 }
+
+.footer ul {
+    text-align: right;
+}
