@@ -227,6 +227,7 @@ ul.row {
     padding: 0;
     list-style-type: none;
 }
+
 .col-1-3 {
     width: 33.33%;
 }
@@ -280,7 +281,7 @@ ul.row {
     height: 10rem;
 } 
 
-.card-testimonial .card-quote .cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
