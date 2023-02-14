@@ -107,7 +107,7 @@ a:active {
     border: var(--button-border);
     font-size: var(--button-font-size);
     color: var(--button-color);
-    text-decoration: var(--button-hover-text-decoration);
+    text-decoration: var(--button-text-decoration);
 }
 
 .button:hover {
@@ -135,7 +135,7 @@ a:active {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    margin: var(--section-footer-align);
+    text-align: var(--section-footer-align);
 }
 
 .section {
@@ -151,6 +151,7 @@ a:active {
 }
 
 .section-tagline {
+    color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
