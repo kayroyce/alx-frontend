@@ -315,9 +315,9 @@ ul.row {
     position: var(--header-logo-position);
 }
 
-.header-logo li {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     vertical-align: var(--header-logo-link-top);
-    align-items: var(--header-logo-link-left);
+    left: var(--header-logo-link-left);
 }
