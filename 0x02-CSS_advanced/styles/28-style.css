@@ -126,7 +126,7 @@ a:active {
 }
 
 .visually-hidden {
-  display: none;
+    display: none;
 }
 
 .card-category{
@@ -318,6 +318,6 @@ ul.row {
 .header-logo li {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
+    vertical-align: var(--header-logo-link-top);
+    align-items: var(--header-logo-link-left);
 }
